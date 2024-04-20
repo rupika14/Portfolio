@@ -1,10 +1,18 @@
 
 
 
-
+.body{
+    background-color: aliceblue;
+}
 .ubuntu-medium {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
+    font-style: normal;
+  }
+
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
     font-style: normal;
   }
   
@@ -14,24 +22,79 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+   
 }
 
 .logo{
     font-size: 25px;
     color: black;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 65px;
 }
 
 
 .navbar>*{
-    margin-right: 30px;
+    margin-right: 80px;
     font-size: 20px;
     color: black;
     text-decoration: none; 
+
+}
+
+.end-nav{
+    margin-right: 150px;
+}
+
+span{
+    color: rgb(47, 79, 224);
+}
+
+.home-body{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 80px 40px 40px 70px;
+}
+
+h1{
+    line-height: 85px;
+    font-size: 65px;
+    
+}
+
+.user-image{
+    background-color: rgb(47, 79, 224);
+    height: 500px;
+    width: 500px;
+    border-radius: 40% 90% 40% 100%;
+    margin-right: 150px;
+    display: grid;
+    grid-row-start: 1;
+}
+
+img{
+    grid-row-start: 1;
+    align-self: center;
+}
+
+.title{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(47, 79, 224);
+    padding-bottom: 5px;
+    font-weight: 600;
 }
 
 
+.about{
+    margin-left: 65px;
+    margin-right: 250px;
+    padding-top: 150px;
+}
 
-
-
+.about-content{
+    display: grid;
+    grid-template: 1fr/2fr 1.5fr;
+}
