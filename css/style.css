@@ -1,6 +1,10 @@
 
 
 
+html{
+    scroll-behavior: smooth;
+}
+
 .body{
     background-color: aliceblue;
 }
@@ -22,12 +26,13 @@
   /*  navigaion section - start */
 
 .header{
+    position: fixed;
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     width: 100%;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-   
+    background-color: aliceblue;
 }
 
 .logo{
@@ -131,5 +136,25 @@ img{
 .skill-item{
     display: grid;
     justify-content: center;
-    
+}
+
+/* skills section -end */
+
+/* projects section -start */
+
+.projects-card{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 10px;  
+}
+
+.projects-link{
+    text-decoration: none;
+    color: rgb(47, 79, 224);;
+}
+
+.projects-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
