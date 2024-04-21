@@ -4,6 +4,7 @@
 .body{
     background-color: aliceblue;
 }
+/* fonts-start */
 .ubuntu-medium {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
@@ -16,12 +17,16 @@
     font-style: normal;
   }
   
+  /* fonts-end */
+
+  /*  navigaion section - start */
 
 .header{
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
    
 }
 
@@ -44,6 +49,10 @@
 .end-nav{
     margin-right: 150px;
 }
+
+/* navigation section -end */
+
+/* hero section -start */
 
 span{
     color: rgb(47, 79, 224);
@@ -78,6 +87,10 @@ img{
     align-self: center;
 }
 
+/* hero section -end */
+
+/* about section -start */
+
 .title{
     font-size: 2.5rem;
     display: flex;
@@ -87,14 +100,36 @@ img{
     font-weight: 600;
 }
 
-
-.about{
-    margin-left: 65px;
-    margin-right: 250px;
-    padding-top: 150px;
+/* new section title -common */
+.card{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 200px;
 }
 
 .about-content{
     display: grid;
     grid-template: 1fr/2fr 1.5fr;
+}
+
+.about-txt{
+    font-size: 20px;
+}
+
+/* about section -end */
+
+/* skills section -start */
+
+.skills-card{
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(3,1fr);
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.skill-item{
+    display: grid;
+    justify-content: center;
+    
 }
