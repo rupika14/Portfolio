@@ -1,0 +1,277 @@
+/* responsiveness */
+
+@media only screen and (max-width: 425px) {
+
+    /* navigation -start */
+
+    .header {
+        position: fixed;
+        flex-direction: column;
+        gap: 3px;
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .navbar > * {
+        margin-right: 30px;
+        font-size: 15px;
+    }
+
+    .end-nav {
+        margin-right: -20px;
+    }
+    /* navigation -end */
+
+    /* hero -start */
+
+    .home-body {
+        padding: 200px 20px 20px 20px; 
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+        height: 800px;
+    }
+
+    .user-image {
+        height: 250px; 
+        width: 250px; 
+        margin-right: 0px; 
+        
+    }
+
+    h1 {
+        font-size: 40px; 
+        line-height: 60px; 
+    }
+
+    .heading{
+        width: 300px;
+        justify-content: space-around;
+        margin-left: 80px;
+        padding-top: 60px;
+    }
+    /* hero -end */
+
+    /* about start */
+
+    .card{
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top: 100px;
+    }
+
+    .title{
+        font-size: 1.7rem;
+    }
+
+    .about-content{
+        grid-template: 1fr 1fr/0.5fr;
+        
+    }
+
+    .about-txt{
+        font-size: 15px;
+        width: 350px;
+    }
+
+    .about-image{
+        height: 350px;
+        width: 350px;
+    }
+    /* about end */
+
+    /* skill start */
+
+    .skills-card{
+        grid-template: repeat(3,1fr)/repeat(2,1fr); 
+        
+    }
+
+    .skill-image{
+        height: 100px;
+    }
+
+    /* skill end */
+    
+    /* project start */
+
+    .projects-body{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projects-card{
+        width: 350px;
+        
+    }
+
+    .project-image{
+        height: 150px;
+    }
+
+    /* project end */
+
+    /* contact start */
+
+    .contact-img{
+        height: 50px;
+    }
+
+    /* contact end */
+  }
+  
+  
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px ) {
+    
+        /* navigation -start */
+
+        .header {
+            position: fixed;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+    
+        .logo {
+            margin-left: 20px;
+            font-size: 20px;
+        }
+    
+        .navbar > * {
+            margin-right: 30px;
+            font-size: 15px;
+        }
+    
+        .end-nav {
+            margin-right: 20px;
+        }
+        /* navigation -end */
+    
+        /* hero -start */
+    
+        .home-body {
+            padding: 90px 20px 20px 20px; 
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            justify-content: space-between;
+            height: 800px;
+        }
+    
+        .user-image {
+            height: 250px; 
+            width: 250px; 
+            margin-right: 0px; 
+            
+        }
+    
+        h1 {
+            font-size: 40px; 
+            line-height: 60px; 
+        }
+    
+        .heading{
+            width: 300px;
+            justify-content: space-around;
+            margin-left: 80px;
+            padding-top: 60px;
+        }
+        /* hero -end */
+    
+        /* about start */
+    
+        .card{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-top: 100px;
+        }
+    
+        .title{
+            font-size: 1.7rem;
+        }
+    
+        .about-content{
+            grid-template: 0.5fr/1fr 1fr;
+            
+        }
+    
+        .about-txt{
+            font-size: 15px;
+            width: 350px;
+        }
+    
+        .about-image{
+            height: 350px;
+            width: 350px;
+        }
+        /* about end */
+    
+        /* skill start */
+    
+        .skills-card{
+            grid-template: repeat(2,1fr)/repeat(3,1fr); 
+            
+        }
+    
+        .skill-image{
+            height: 100px;
+        }
+    
+        /* skill end */
+        
+        /* project start */
+    
+        .projects-body{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .projects-card{
+            width: 400px;
+            padding-bottom: 20px;
+        }
+    
+        .project-image{
+            height: 200px;
+        }
+    
+        /* project end */
+    
+        /* contact start */
+    
+        .contact-img{
+            height: 50px;
+        }
+    
+        /* contact end */
+
+  } 
+  
+  
+  @media only screen and (max-width: 1440px) {
+
+    .home-body{
+        justify-content: space-between;
+    }
+
+    .projects-body{
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) 
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;} */
+    
