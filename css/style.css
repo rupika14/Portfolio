@@ -1,8 +1,12 @@
 
 
+*{
+    box-sizing: border-box;
+}
 
 html{
     scroll-behavior: smooth;
+
 }
 
 .body{
@@ -33,6 +37,7 @@ html{
     width: 100%;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     background-color: aliceblue;
+    border-radius: 10px;
 }
 
 .logo{
@@ -146,6 +151,7 @@ img{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     width: 400px;
     padding: 10px;  
+    border-radius: 20px;
 }
 
 .projects-link{
@@ -158,3 +164,40 @@ img{
     flex-direction: row;
     justify-content: space-between;
 }
+
+/* projects section -end */
+
+/* contact section -start */
+
+.contact-body{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.contact-card{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.2);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* contact section -end */
+
+/* footer -start */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.footer-body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* footer -end */
+
