@@ -2,16 +2,19 @@
 
 *{
     box-sizing: border-box;
+    
 }
 
 html{
     scroll-behavior: smooth;
-
+    overflow-x: hidden;
 }
 
 .body{
     background-color: aliceblue;
 }
+
+
 /* fonts-start */
 .ubuntu-medium {
     font-family: "Ubuntu", sans-serif;
@@ -26,6 +29,7 @@ html{
   }
   
   /* fonts-end */
+
 
   /*  navigaion section - start */
 
